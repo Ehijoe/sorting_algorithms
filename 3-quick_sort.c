@@ -58,7 +58,8 @@ size_t partition(int *array, size_t size, int *arr_start, size_t original_size)
  * @arr_start: The start of the original array
  * @original_size: The size of the entire array
  */
-void quick_sort_helper(int *array, size_t size, int *arr_start, size_t original_size)
+void quick_sort_helper(int *array, size_t size,
+		       int *arr_start, size_t original_size)
 {
 	size_t p;
 
